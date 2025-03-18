@@ -1,7 +1,7 @@
 # Functional Requirements & User Stories
 
 ## Introduction
-This lecture covers **functional requirements** and **user stories**, essential tools in software development. It emphasizes the importance of analyzing apps not just from a user experience perspective but also from a technical standpoint. As developers, understanding how apps function under the hood is crucial.
+This lecture covers **Functional requirements** and **User stories**, essential tools in software development. It emphasizes the importance of analyzing apps not just from a user experience perspective but also from a technical standpoint. As developers, understanding how apps function under the hood is crucial.
 
 ## Understanding User Stories
 User stories are a common tool for defining user-facing systems. They are typically structured as:
