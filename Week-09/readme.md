@@ -57,5 +57,13 @@ Design patterns are reusable fragments of code that provide solutions to well-un
   - **Answering questions:** Participating in discussions and helping other contributors.
   - **Testing:** Identifying issues or improving test coverage.
 
-3.    
+## Reflection: How I Plan to Contribute
+
+Based on what I’ve learned, I would like to start contributing in the following ways:
+
+1. **Documentation Contributions**  
+   - Many projects lack proper documentation. I plan to help by improving README files, tutorials, and project instructions.
+2. **Helping Others in the Community**  
+   - Engaging in discussions, answering beginner questions, and helping with code reviews.
+   
  
