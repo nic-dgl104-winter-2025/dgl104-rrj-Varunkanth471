@@ -6,10 +6,6 @@ This lecture covers **functional requirements** and **user stories**, essential 
 ## Understanding User Stories
 User stories are a common tool for defining user-facing systems. They are typically structured as:
 
-```
-As a [user], I can [perform an action] so that [achieve a goal].
-```
-
 User stories are written in natural language and aim to capture user interactions within an application. They serve as a great tool for communication within development teams, ensuring a shared understanding of the app's intended functionality.
 
 ### Advantages of User Stories:
