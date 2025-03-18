@@ -45,5 +45,17 @@ Design patterns are reusable fragments of code that provide solutions to well-un
 
 - **Example:** Sorting strategies where different sorting algorithms can be used based on input size or data characteristics.
 
+### What I understood.
 
+1. I have went through the ***Application Development Coding Project*** and helped me to understand what I can contribute for the project and the Rubric gave me a what need to be done and found little bit confidence and also checked the ***Research and Reflection Journal Guide*** on GitHub, got a clear point how to complete ny Journal.
 
+2. Spent some time to the activity **What to Contribute** 
+- **Contributing to Open Source** involves more than just code. It can include:
+  - **Reporting bugs:** Identifying and reporting issues to help improve the project.
+  - **Writing documentation:** Providing clear, useful documentation for users and developers.
+  - **Designing:** Contributing to UI/UX design, which is essential for user-facing projects.
+  - **Answering questions:** Participating in discussions and helping other contributors.
+  - **Testing:** Identifying issues or improving test coverage.
+
+3.    
+ 
