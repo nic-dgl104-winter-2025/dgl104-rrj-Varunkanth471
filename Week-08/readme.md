@@ -83,5 +83,5 @@ Functional requirements define software features in terms of **input and output*
 
 ---
 
-### Conclusion
+### Reflection
 Processing is an excellent language for visual programming, and user stories like the ones above help define software functionality clearly. The structured approach ensures a seamless user experience for platforms like Spotify.
