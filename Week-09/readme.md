@@ -75,3 +75,13 @@ After going through the Section 4 in the "How to contribute" i went and explored
 - Skill Match: It involves CSS and HTML, areas I’m comfortable with and enjoy working on.
 - Beginner-Friendly: Styling the footer seems like a contained task perfect for someone like me who’s relatively new to open-source. I won’t need to dive too deep into the whole codebase to get started.
 - Learning Opportunity: It’ll let me sharpen my front-end skills while getting familiar with how this wireframing tool is built. 
+
+### 
+
+### References
+
+- Class video : Design patterns https://www.youtube.com/watch?v=A9sAIokPGsQ
+- Singleton Design Pattern: https://www.youtube.com/watch?v=tSZn4wkBIu8
+- Factory Method Design Pattern: https://www.youtube.com/watch?v=s3Wr5_tsODs
+- Observer Design Pattern: https://www.youtube.com/watch?v=lANfXJdXe34
+- Strategy Design Pattern: https://www.youtube.com/watch?v=E9-4uaoncVY
