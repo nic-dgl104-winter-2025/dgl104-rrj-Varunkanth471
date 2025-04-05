@@ -57,6 +57,15 @@ Design patterns are reusable fragments of code that provide solutions to well-un
 
 Open source contribution extends far beyond coding, offering opportunities for involvement. While coding is valuable, projects often need help with documentation, design, organizing. For example, improving documentation can be as important as writing code. This variety allows anyone, regardless of technical skill, to contribute meaningfully. Starting with basics tasks can also help build relationships and confidence, paving the way for future coding contributions. Open source isn’t limited to software projects can include books,etc.,. This makes open source accessible to all.
 
+* Section 4
 
-   
+## Finding a project to contribute to.
+
+After going through the Section 4 in the "How to contribute" i went and explored "Open Source Friday" to find any issue relatd to our project and found out https://up-for-grabs.net/ Up for Grabs website to Find any issue.
+
+- Found an issue called "Wireframe".
+- Link to the GitHub repo. - https://github.com/agauniyal/wireframe/labels/help%20wanted
+- In the repo. did not found more then 5 issues posted and the issues were "help wanted" issues ranging from refactoring the framework to a custom tag-based system, styling the footer, and adding a navigation element which offers an opportunities for both technical and design contributions.
+
+### 4.
  
