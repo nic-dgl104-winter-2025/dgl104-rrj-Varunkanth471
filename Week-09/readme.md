@@ -67,5 +67,11 @@ After going through the Section 4 in the "How to contribute" i went and explored
 - Link to the GitHub repo. - https://github.com/agauniyal/wireframe/labels/help%20wanted
 - In the repo. did not found more then 5 issues posted and the issues were "help wanted" issues ranging from refactoring the framework to a custom tag-based system, styling the footer, and adding a navigation element which offers an opportunities for both technical and design contributions.
 
-### 4.
+### 4. Identify Issues to Support
+
+- Found an issue in the agauuniyal/wireframe repository that I think would be a great fit for me to tackle as an open-source contribution. The project is a wireframing tool designed to help create prototypes or mockups of websites and applications pretty cool for anyone into UI/UX or front-end devlopment The specific issue I’m eyeing is styling the footer of the application.
  
+# Why this issue?
+- Skill Match: It involves CSS and HTML, areas I’m comfortable with and enjoy working on.
+- Beginner-Friendly: Styling the footer seems like a contained task perfect for someone like me who’s relatively new to open-source. I won’t need to dive too deep into the whole codebase to get started.
+- Learning Opportunity: It’ll let me sharpen my front-end skills while getting familiar with how this wireframing tool is built. 
