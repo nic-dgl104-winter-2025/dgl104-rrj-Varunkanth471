@@ -15,7 +15,7 @@ Design patterns are reusable fragments of code that provide solutions to well-un
 
 
 # Activities Completed
-## Four Common Design Patterns
+## 1. Four Common Design Patterns
 
 ### 1. Singleton Pattern
 
@@ -45,25 +45,18 @@ Design patterns are reusable fragments of code that provide solutions to well-un
 
 - **Example:** Sorting strategies where different sorting algorithms can be used based on input size or data characteristics.
 
-### What I understood.
+### 2. Went Through APPLICATION DEVELOPMENT CODING PROJECT ASSIGNMENT &  RESEARCH AND REFLECTION GUIDE.
 
-1. I have went through the ***Application Development Coding Project*** and helped me to understand what I can contribute for the project and the Rubric gave me a what need to be done and found little bit confidence and also checked the ***Research and Reflection Journal Guide*** on GitHub, got a clear point how to complete ny Journal.
+*  I have went through the ***Application Development Coding Project*** and helped me to understand what I can contribute for the project and the Rubric gave me a what need to be done and found little bit confidence and also checked the ***Research and Reflection Journal Guide*** on GitHub, got a clear point how to complete ny Journal.
 
-2. Spent some time to the activity **What to Contribute** 
-- **Contributing to Open Source** involves more than just code. It can include:
-  - **Reporting bugs:** Identifying and reporting issues to help improve the project.
-  - **Writing documentation:** Providing clear, useful documentation for users and developers.
-  - **Designing:** Contributing to UI/UX design, which is essential for user-facing projects.
-  - **Answering questions:** Participating in discussions and helping other contributors.
-  - **Testing:** Identifying issues or improving test coverage.
+### 3. HOW TO CONTRIBUTE TO OPEN SOURCE 
 
-## Reflection: How I Plan to Contribute
+* Section-2 
 
-Based on what I’ve learned, I would like to start contributing in the following ways:
+## Contributing to Open Source
 
-1. **Documentation Contributions**  
-   - Many projects lack proper documentation. I plan to help by improving README files, tutorials, and project instructions.
-2. **Helping Others in the Community**  
-   - Engaging in discussions, answering beginner questions, and helping with code reviews.
+Open source contribution extends far beyond coding, offering opportunities for involvement. While coding is valuable, projects often need help with documentation, design, organizing. For example, improving documentation can be as important as writing code. This variety allows anyone, regardless of technical skill, to contribute meaningfully. Starting with basics tasks can also help build relationships and confidence, paving the way for future coding contributions. Open source isn’t limited to software projects can include books,etc.,. This makes open source accessible to all.
+
+
    
  
