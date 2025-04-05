@@ -76,7 +76,20 @@ After going through the Section 4 in the "How to contribute" i went and explored
 - Beginner-Friendly: Styling the footer seems like a contained task perfect for someone like me who’s relatively new to open-source. I won’t need to dive too deep into the whole codebase to get started.
 - Learning Opportunity: It’ll let me sharpen my front-end skills while getting familiar with how this wireframing tool is built. 
 
-### 
+### Summary
+
+Design patterns are reusable solutions to common problems in software development. They act as blueprints general templates, not specific code snippets that developers can adapt to various situations.
+
+## Why Are They Important?
+
+- They improve code quality, making it more maintainable, scalable, and easier to understand.
+- Design patterns help developers communicate effectively by providing a shared language and proven approaches to avoid common pitfalls.
+
+## Main Categories
+
+- **Creational Patterns**: Focus on object creation (e.g., Singleton, Factory).
+- **Structural Patterns**: Deal with object composition (e.g., Adapter, Decorator).
+- **Behavioral Patterns**: Address object interaction and communication (e.g., Observer, Strategy).
 
 ### References
 
