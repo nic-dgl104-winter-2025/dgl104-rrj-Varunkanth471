@@ -43,7 +43,21 @@
 - UI-based architectural pattern, similar to MVC, emphasizes data binding.
 - Contains business logic and data and handles UI representation which represents a bridge to model and view, no to direct view reference.
 - **Data Binding** 
-  - Reduces boilerplate code, improves efficiency.
+  - One-Way: View pulls data or notifies ViewModel (manual updates).
+  - Two-Way: View and ViewModel sync automatically (less boilerplate).
+  
 - Ideal for real-time data updates.
 - Common in modern Android (Jetpack Compose), SwiftUI, and web frameworks (Vue, Angular, React).  
+
+### Summary
+
+MVC (Model-View-Controller) and MVVM (Model-View-ViewModel) are UI architectural patterns that separate concerns in software, with MVC using a Model for data/logic, a passive View for display, and a Controller to handle interactions. while MVVM employs a Model, a View, and a ViewModel that connects them via data binding (one-way or two-way) for automatic updates, reducing code.
+
+## Reference
+
+- Model-View-Controller : https://www.youtube.com/watch?v=DUg2SWWK18I
+- Model-View-ViewModel : https://www.youtube.com/watch?v=AXpTeiWtbC8
+   - https://www.educative.io/courses/javascript-design-patterns-for-coding-interviews/mvvm-pattern?utm_term=&utm_campaign=%5BNew+-+Mar+24%5D+Brand+Core+Performance+Max&utm_source=adwords&utm_medium=ppc&hsa_acc=5451446008&hsa_cam=21099703438&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=2&gclid=EAIaIQobChMIgv_1g5rCjAMVlzatBh38ZSANEAEYASAAEgL8jfD_BwE
+
+- Data Binding: https://www.youtube.com/watch?v=9G9eYCSdJvU
 
