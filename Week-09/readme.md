@@ -1,104 +1,118 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/MMj2nZMu)
 # Resarch and Reflection Journal
 Research and Reflection Journal for DGL 104 course
+---
+##  Section 1: Design Patterns
 
-# Design Patterns
+###  Introduction
 
-## Introduction
+Design patterns are proven solutions to recurring software design problems. They don’t represent exact code, but rather general approaches that developers can adapt to various situations to improve code scalability, flexibility, and readability (Gamma et al., 1994).
 
-Design patterns are reusable fragments of code that provide solutions to well-understood coding problems. While they do not perform specific functions on their own, they help create maintainable and scalable code. These patterns are widely recognized by experienced programmers, improving code readability and long-term maintainability.
+---
 
-## Key Concepts
+###  Key Concepts
 
-### What Are Design Patterns?
+####  What Are Design Patterns?
 
 - Reusable solutions to common programming problems.
-- Not actual code, but structured approaches to problem-solving.
-- Improve code maintainability and readability.
-- Recognizable by developers, making collaboration easier.
+- Blueprints, not specific implementations.
+- Improve maintainability and readability.
+- Offer a shared vocabulary among developers (Freeman & Robson, 2004).
 
+---
 
-# Activities Completed
-## 1. Four Common Design Patterns
+###  Activities Completed
 
-### 1. Singleton Pattern
+#### 1. **Four Common Design Patterns**
 
-- **Purpose:** Ensures that a class has only one instance and provides a global point of access to it.
-- **Use Case:** When you want to restrict the instantiation of a class to one object.
-- **Example:** Database connections or logging classes where a single instance is needed throughout the application.
-  
-### 2. Factory Method Pattern
+#####  Singleton Pattern  
+- **Purpose**: Ensure a class has only one instance and provide a global point of access.  
+- **Use Case**: Centralized resources like DB managers or loggers.  
+- **Example**: Logging system.  
+> *"The Singleton pattern restricts instantiation of a class to a single object"* — Gamma et al., 1994
 
-- **Purpose:** Defines an interface for creating an object, but allows subclasses to alter the type of objects that will be created.
+#####  Factory Method Pattern  
+- **Purpose**: Define an interface for creating objects but let subclasses decide which class to instantiate.  
+- **Use Case**: When object creation logic varies.  
+- **Example**: UI toolkit that supports multiple operating systems.  
+> *"Factory methods let a class defer instantiation to subclasses"* — Gamma et al., 1994
 
-- **Use Case:** When a class cannot anticipate the class of objects it must create or wants its subclasses to specify the objects it creates.
+#####  Observer Pattern  
+- **Purpose**: Enable multiple objects to observe and respond to state changes in another object.  
+- **Use Case**: Real-time updates across multiple components.  
+- **Example**: Chat apps, stock tickers.  
+> *"Defines a one-to-many dependency between objects"* — Gamma et al., 1994
 
-- **Example:** UI frameworks where different types of buttons (like Windows or MacOS) are created depending on the platform.  
+#####  Strategy Pattern  
+- **Purpose**: Enable selecting an algorithm at runtime from a family of algorithms.  
+- **Use Case**: Multiple interchangeable algorithms.  
+- **Example**: Choosing different sorting techniques.  
+> *"Defines a family of algorithms, encapsulates each one, and makes them interchangeable"* — Gamma et al., 1994
 
-### 3. Observer Pattern
-- **Purpose:** Allows a subject to notify its observers of any state changes without knowing who or what those observers are.
+---
 
-- **Use Case:** When you need to implement a subscription mechanism to allow multiple objects to listen to and react to events or state changes from another object.
+#### 2. **Understanding the Application Development Coding Project**
 
-- **Example:** Implementing a real-time chat application where new messages are broadcasted to multiple users.
+I reviewed the [Application Development Coding Project assignment](#) and rubric. It helped me understand my potential contributions, the grading criteria, and gave me more confidence. I also reviewed the [Reflection Journal Guide on GitHub](#), which provided a clearer direction for completing this journal.
 
-### 4. Strategy Pattern
-- **Purpose:** Defines a family of algorithms and allows them to be interchangeable. This pattern allows the algorithm to be selected at runtime.
+---
 
-- **Use Case:** When a class has multiple methods for performing an action and needs to switch between them dynamically.
+#### 3. **How to Contribute to Open Source**
 
-- **Example:** Sorting strategies where different sorting algorithms can be used based on input size or data characteristics.
+Open source isn’t just about code—it includes design, documentation, issue triaging, and more (Fogel, 2005). Beginners can start with small tasks to build familiarity.
 
-### 2. Went Through APPLICATION DEVELOPMENT CODING PROJECT ASSIGNMENT &  RESEARCH AND REFLECTION GUIDE.
+> *"The success of an open-source project is heavily influenced by its community, not just the code"* — Raymond, 2001
 
-*  I have went through the ***Application Development Coding Project*** and helped me to understand what I can contribute for the project and the Rubric gave me a what need to be done and found little bit confidence and also checked the ***Research and Reflection Journal Guide*** on GitHub, got a clear point how to complete ny Journal.
+---
 
-### 3. HOW TO CONTRIBUTE TO OPEN SOURCE 
+#### 4. **Finding a Project to Contribute To**
 
-* Section-2 
+I explored the platform [Up for Grabs](https://up-for-grabs.net/) to find beginner-friendly open-source issues. I found a project:
 
-## Contributing to Open Source
+- **Repo**: [agauniyal/wireframe](https://github.com/agauniyal/wireframe/labels/help%20wanted)  
+- **Description**: A tool for creating website/app mockups  
+- **Issue Chosen**: *Styling the footer*
 
-Open source contribution extends far beyond coding, offering opportunities for involvement. While coding is valuable, projects often need help with documentation, design, organizing. For example, improving documentation can be as important as writing code. This variety allows anyone, regardless of technical skill, to contribute meaningfully. Starting with basics tasks can also help build relationships and confidence, paving the way for future coding contributions. Open source isn’t limited to software projects can include books,etc.,. This makes open source accessible to all.
+**Why This Issue?**
+- **Skill Match**: Involves HTML/CSS.
+- **Beginner Friendly**: Easy to isolate and contribute to.
+- **Learning Opportunity**: Understand how front-end tools work.
 
-* Section 4
+---
 
-## Finding a project to contribute to.
+##Summary
 
-After going through the Section 4 in the "How to contribute" i went and explored "Open Source Friday" to find any issue relatd to our project and found out https://up-for-grabs.net/ Up for Grabs website to Find any issue.
+Design patterns are like cheat codes for writing clean, reusable code. They're not actual code, but blueprints for solving common problems in software development (Gamma et al., 1994).
 
-- Found an issue called "Wireframe".
-- Link to the GitHub repo. - https://github.com/agauniyal/wireframe/labels/help%20wanted
-- In the repo. did not found more then 5 issues posted and the issues were "help wanted" issues ranging from refactoring the framework to a custom tag-based system, styling the footer, and adding a navigation element which offers an opportunities for both technical and design contributions.
+###Why Are They Important?
+- They **enhance maintainability**, **encourage reuse**, and **simplify collaboration**.
+- They help devs avoid reinventing the wheel.
+- They provide a **universal language** for common challenges.
 
-### 4. Identify Issues to Support
+---
 
-- Found an issue in the agauuniyal/wireframe repository that I think would be a great fit for me to tackle as an open-source contribution. The project is a wireframing tool designed to help create prototypes or mockups of websites and applications pretty cool for anyone into UI/UX or front-end devlopment The specific issue I’m eyeing is styling the footer of the application.
- 
-# Why this issue?
-- Skill Match: It involves CSS and HTML, areas I’m comfortable with and enjoy working on.
-- Beginner-Friendly: Styling the footer seems like a contained task perfect for someone like me who’s relatively new to open-source. I won’t need to dive too deep into the whole codebase to get started.
-- Learning Opportunity: It’ll let me sharpen my front-end skills while getting familiar with how this wireframing tool is built. 
+###Categories of Design Patterns
 
-### Summary
+| Category        | Description                            | Examples                  |
+|----------------|----------------------------------------|---------------------------|
+| Creational      | Object creation techniques             | Singleton, Factory        |
+| Structural      | Composition of classes/objects         | Adapter, Decorator        |
+| Behavioral      | Communication between objects          | Observer, Strategy        |
 
-Design patterns are reusable solutions to common problems in software development. They act as blueprints general templates, not specific code snippets that developers can adapt to various situations.
+---
 
-## Why Are They Important?
+##References
 
-- They improve code quality, making it more maintainable, scalable, and easier to understand.
-- Design patterns help developers communicate effectively by providing a shared language and proven approaches to avoid common pitfalls.
+- Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.  
+- Freeman, E., & Robson, E. (2004). *Head First Design Patterns*. O’Reilly Media.  
+- Fogel, K. (2005). *Producing Open Source Software*. O’Reilly Media.  
+- Raymond, E. S. (2001). *The Cathedral and the Bazaar*. O’Reilly Media.  
 
-## Main Categories
+###Videos
+- [Class Video on Design Patterns](https://www.youtube.com/watch?v=A9sAIokPGsQ)  
+- [Singleton Pattern](https://www.youtube.com/watch?v=tSZn4wkBIu8)  
+- [Factory Pattern](https://www.youtube.com/watch?v=s3Wr5_tsODs)  
+---
 
-- **Creational Patterns**: Focus on object creation (e.g., Singleton, Factory).
-- **Structural Patterns**: Deal with object composition (e.g., Adapter, Decorator).
-- **Behavioral Patterns**: Address object interaction and communication (e.g., Observer, Strategy).
+> _“Design patterns help you build systems that are easier to understand, maintain, and scale.”_
 
-### References
-
-- Class video : Design patterns https://www.youtube.com/watch?v=A9sAIokPGsQ
-- Singleton Design Pattern: https://www.youtube.com/watch?v=tSZn4wkBIu8
-- Factory Method Design Pattern: https://www.youtube.com/watch?v=s3Wr5_tsODs
-- Observer Design Pattern: https://www.youtube.com/watch?v=lANfXJdXe34
-- Strategy Design Pattern: https://www.youtube.com/watch?v=E9-4uaoncVY
