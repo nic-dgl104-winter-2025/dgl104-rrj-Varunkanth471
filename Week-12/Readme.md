@@ -39,3 +39,12 @@ Research and Reflection Journal for DGL 104 course
   - **Recursion:**
     - Functions call themselves instead of loops.
     - Example: Fibonacci (`fib(n) = fib(n-1) + fib(n-2)`) with base cases.
+
+### Summary
+
+​Functional programming is a declarative paradigm that emphasizes expressing the logic of computation without describing its control flow. It focuses on what the program should accomplish, contrasting with imperative programming's focus on how tasks are performed. This approach is particularly beneficial in object-oriented languages like Kotlin, Swift, Java, and JavaScript, which, while not purely functional, incorporate functional-style APIs for handling collections.
+
+# Reference
+
+- FUNCTIONAL PARADIGM: https://se-education.org/learningresources/contents/functionalProgramming/intro.html
+- Class video : https://www.youtube.com/watch?v=_uXZ8HvHH7o.

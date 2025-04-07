@@ -1,3 +1,7 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/MMj2nZMu)
+# Rsearch and Reflection Journal
+Research and Reflection Journal for DGL 104 course
+
 # Object-Oriented Programming
 
 - Object-Oriented Programming (OOP) is a way of writing computer programs using "objects." An object is like a container that holds information (called data or attributes) and instructions (called methods) for what it can do.
