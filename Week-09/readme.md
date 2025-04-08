@@ -31,17 +31,114 @@ Design patterns are proven solutions to recurring software design problems. They
 - **Example**: Logging system.  
 > *"The Singleton pattern restricts instantiation of a class to a single object"* — Gamma et al., 1994
 
+```java
+public class Logger {
+    private static Logger instance;
+
+    private Logger() {
+        // Private constructor prevents instantiation from other classes
+    }
+
+    public static Logger getInstance() {
+        if (instance == null) {
+            instance = new Logger();
+        }
+        return instance;
+    }
+
+    public void log(String message) {
+        System.out.println("Log: " + message);
+    }
+}
+
+// Usage
+public class Main {
+    public static void main(String[] args) {
+        Logger logger = Logger.getInstance();
+        logger.log("This is a singleton pattern example.");
+    }
+}
+```
+
 #####  Factory Method Pattern  
 - **Purpose**: Define an interface for creating objects but let subclasses decide which class to instantiate.  
 - **Use Case**: When object creation logic varies.  
 - **Example**: UI toolkit that supports multiple operating systems.  
 > *"Factory methods let a class defer instantiation to subclasses"* — Gamma et al., 1994
 
+```
+public interface Button {
+    void render();
+}
+public class WindowsButton implements Button {
+    @Override
+    public void render() {
+        System.out.println("Rendering Windows button.");
+    }
+}
+public class MacButton implements Button {
+    @Override
+    public void render() {
+        System.out.println("Rendering Mac button.");
+    }
+}
+public abstract class Dialog {
+    public void renderWindow() {
+        Button okButton = createButton();
+        okButton.render();
+    }
+    public abstract Button createButton();
+}
+public class WindowsDialog extends Dialog {
+    @Override
+    public Button createButton() {
+        return new WindowsButton();
+    }
+}
+public class MacDialog extends Dialog {
+    @Override
+    public Button createButton() {
+        return new MacButton();
+    }
+}
+```
 #####  Observer Pattern  
 - **Purpose**: Enable multiple objects to observe and respond to state changes in another object.  
 - **Use Case**: Real-time updates across multiple components.  
 - **Example**: Chat apps, stock tickers.  
 > *"Defines a one-to-many dependency between objects"* — Gamma et al., 1994
+```
+// Observer interface
+interface Observer {
+    void update(String message);
+}
+// Subject class
+class Subject {
+    private List<Observer> observers = new ArrayList<>();
+    public void addObserver(Observer observer) {
+        observers.add(observer);
+    }
+    public void removeObserver(Observer observer) {
+        observers.remove(observer);
+    }
+    public void notifyObservers(String message) {
+        for (Observer observer : observers) {
+            observer.update(message);
+        }
+    }
+}
+class ConcreteObserver implements Observer {
+    private String name;
+
+    public ConcreteObserver(String name) {
+        this.name = name;
+    }
+    @Override
+    public void update(String message) {
+        System.out.println(name + " received message: " + message);
+    }
+}
+```
 
 #####  Strategy Pattern  
 - **Purpose**: Enable selecting an algorithm at runtime from a family of algorithms.  
@@ -49,8 +146,35 @@ Design patterns are proven solutions to recurring software design problems. They
 - **Example**: Choosing different sorting techniques.  
 > *"Defines a family of algorithms, encapsulates each one, and makes them interchangeable"* — Gamma et al., 1994
 
----
-
+```
+// Strategy interface
+interface SortingStrategy {
+    void sort(int[] numbers);
+}
+class BubbleSort implements SortingStrategy {
+    @Override
+    public void sort(int[] numbers) {
+        // Implementation of bubble sort algorithm
+        System.out.println("Sorting using Bubble Sort.");
+    }
+}
+class QuickSort implements SortingStrategy {
+    @Override
+    public void sort(int[] numbers) {
+        // Implementation of quick sort algorithm
+        System.out.println("Sorting using Quick Sort.");
+    }
+}
+class Sorter {
+    private SortingStrategy strategy;
+    public void setStrategy(SortingStrategy strategy) {
+        this.strategy = strategy;
+    }
+    public void sort(int[] numbers) {
+        strategy.sort(numbers);
+    }
+}
+```
 #### 2. **Understanding the Application Development Coding Project**
 
 I reviewed the [Application Development Coding Project assignment](#) and rubric. It helped me understand my potential contributions, the grading criteria, and gave me more confidence. I also reviewed the [Reflection Journal Guide on GitHub](#), which provided a clearer direction for completing this journal.
