@@ -42,6 +42,31 @@ Functional requirements define software features in terms of **input and output*
 
 **Processing** is an open-source programming language and development environment built on Java, designed to make coding accessible for creative applications. It enables users to quickly "sketch" interactive visuals, animations, and data visualizations with a simplified syntax and a rich set of graphics libraries. 
 
+- Example: "Processing is used to create interactive visuals, animations, and data visualizations for creative projects."
+- 
+# Interactive Color Changing Circle
+
+```java
+color bgColor;
+color circleColor;
+
+void setup() {
+  size(600, 400);
+  bgColor = color(255);
+  circleColor = color(0, 0, 255);
+}
+
+void draw() {
+  background(bgColor);
+  fill(circleColor);
+  ellipse(width/2, height/2, 100, 100);
+}
+
+void mousePressed() {
+  bgColor = color(random(255), random(255), random(255));
+  circleColor = color(random(255), random(255), random(255));
+}
+```
 ### Overview:
 - Originally developed at **MIT in 2001** by **Casey Reas and Ben Fry**.
 - Intended as a tool for **non-programmers**, especially artists and designers, to learn programming basics while creating compelling visual art.
