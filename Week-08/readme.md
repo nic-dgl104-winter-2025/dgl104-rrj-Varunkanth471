@@ -74,9 +74,29 @@ void mousePressed() {
 ### Why These Resources?
 - The **tutorials and examples** provide immediate visual feedback, essential for understanding programming in a visual context.
 - **Processing’s design philosophy** emphasizes rapid prototyping, encouraging learners to experiment.
+- 
+The following example demonstrates how Processing's tutorials and examples offer immediate visual feedback and encourage rapid prototyping.
 
----
+```java
+color bgColor;
 
+void setup() {
+  size(600, 400);
+  bgColor = color(200);
+}
+
+void draw() {
+  background(bgColor);
+  fill(0);
+  textSize(32);
+  text("Press any key to change color", 50, height/2);
+}
+
+void keyPressed() {
+  // Immediate visual feedback: change to a random background color
+  bgColor = color(random(255), random(255), random(255));
+}
+```
 ## User Story: Spotify
 
 ### 1. Create a New Playlist
@@ -105,8 +125,6 @@ void mousePressed() {
 - A **“Share”** button is visible on the **playlist details page**.
 - Options include **social media sharing** and a **copyable link**.
 - The shared playlist link directs recipients to the **correct playlist**.
-
----
 
 ### Reflection
 Processing is an excellent language for visual programming, and user stories like the ones above help define software functionality clearly. The structured approach ensures a seamless user experience for platforms like Spotify.
