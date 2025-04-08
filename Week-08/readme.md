@@ -128,3 +128,18 @@ void keyPressed() {
 
 ### Reflection
 Processing is an excellent language for visual programming, and user stories like the ones above help define software functionality clearly. The structured approach ensures a seamless user experience for platforms like Spotify.
+
+# References
+
+- **Functional Requirements & User Stories:**  
+  - [User Stories Applied: For Agile Software Development by Mike Cohn](https://www.amazon.com/dp/0321205685/)  
+  - [Writing Effective Use Cases by Alistair Cockburn](https://www.amazon.com/dp/0702121020/)
+
+- **Technical Design Document (TDD):**  
+  - [IEEE Std 830-1998: IEEE Recommended Practice for Software Requirements Specifications](https://ieeexplore.ieee.org/document/730688)  
+  - [Software Requirements by Karl Wiegers](https://www.amazon.com/dp/0735679665)
+
+- **Processing (Programming Language):**  
+  - [Official Processing Website](https://processing.org/)  
+  - [Getting Started with Processing by Casey Reas and Ben Fry](https://www.amazon.com/dp/0981389016)
+
